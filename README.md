@@ -59,6 +59,8 @@ tests passing**.
 Current deployment:
 [`0x2435Fdb65cFDA8e36A3A22CEaaf7f573Dc0Ad70b`](https://explorer-studio.genlayer.com/address/0x2435Fdb65cFDA8e36A3A22CEaaf7f573Dc0Ad70b)
 
+Live application: [https://spec-latch.pages.dev/](https://spec-latch.pages.dev/)
+
 1. Deploy `contracts/spec_latch.py` on GenLayer Studionet with the main wallet.
 2. Put the returned address in `frontend/.env.production` as
    `VITE_CONTRACT_ADDRESS`.

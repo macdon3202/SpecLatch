@@ -1,0 +1,309 @@
+{
+  "network": "studionet",
+  "contract": "0x2435Fdb65cFDA8e36A3A22CEaaf7f573Dc0Ad70b",
+  "contract_explorer": "https://explorer-studio.genlayer.com/address/0x2435Fdb65cFDA8e36A3A22CEaaf7f573Dc0Ad70b",
+  "pinned_commit": "0b8184b1d6ed9fba836222684fd082b32782d4ef",
+  "roles": {
+    "bundle_author": "0xFeD97e2aE1A8C1983b7cA206B3545e6A2c685E43",
+    "independent_auditor": "0xc67532aeF9D2879cBA9375a02E6217A3524657B8",
+    "deployer_role": "NONE"
+  },
+  "initial_config": {
+    "access": "PERMISSIONLESS_TWO_WALLET_PER_BUNDLE",
+    "architecture": "SEALED_MANIFEST_ITEM_RECEIPTS_DEPENDENCY_GATE",
+    "bundle_count": 2,
+    "decision_scope": "EIP_METADATA_ONLY_NOT_CONSUMER_MIGRATION",
+    "fallback_origin": "https://raw.githubusercontent.com/ethereum/EIPs",
+    "primary_origin": "https://eips.ethereum.org",
+    "version": "SPEC_LATCH_V1"
+  },
+  "transactions": [
+    {
+      "method": "create_bundle",
+      "tx": "0x8574c4828b610937aabb1da281d5e3d2f3a7ec340599039f0c1cdc2960aa3ef3",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "consensus": "MAJORITY_AGREE",
+      "expected_error": false,
+      "explorer": "https://explorer-studio.genlayer.com/tx/0x8574c4828b610937aabb1da281d5e3d2f3a7ec340599039f0c1cdc2960aa3ef3"
+    },
+    {
+      "method": "add_requirement",
+      "tx": "0x6097530b919666a44572f1053afba4806f53eabf83b74dc4006876a441dc2c8d",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "consensus": "MAJORITY_AGREE",
+      "expected_error": false,
+      "explorer": "https://explorer-studio.genlayer.com/tx/0x6097530b919666a44572f1053afba4806f53eabf83b74dc4006876a441dc2c8d"
+    },
+    {
+      "method": "add_requirement",
+      "tx": "0x9b3524e929f789f133e581772226e806a7919484923ab05128cf92930d54d055",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "consensus": "MAJORITY_AGREE",
+      "expected_error": false,
+      "explorer": "https://explorer-studio.genlayer.com/tx/0x9b3524e929f789f133e581772226e806a7919484923ab05128cf92930d54d055"
+    },
+    {
+      "method": "add_requirement",
+      "tx": "0x8f122116a76aee89071f9d2ab0f04781bea692ebdee28615aaef08fd04ecff41",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "consensus": "MAJORITY_AGREE",
+      "expected_error": false,
+      "explorer": "https://explorer-studio.genlayer.com/tx/0x8f122116a76aee89071f9d2ab0f04781bea692ebdee28615aaef08fd04ecff41"
+    },
+    {
+      "method": "add_requirement",
+      "tx": "0xc22763c565613480abcc2c3379d046cc1bed8aa73e2966b89b95d3be8dac3b19",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "consensus": "MAJORITY_AGREE",
+      "expected_error": false,
+      "explorer": "https://explorer-studio.genlayer.com/tx/0xc22763c565613480abcc2c3379d046cc1bed8aa73e2966b89b95d3be8dac3b19"
+    },
+    {
+      "method": "seal_bundle",
+      "tx": "0x35ee9c4e0f1bdcbbbd858f191db63331fca16b757679d2aeae60b55a78ecc90e",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "consensus": "MAJORITY_AGREE",
+      "expected_error": false,
+      "explorer": "https://explorer-studio.genlayer.com/tx/0x35ee9c4e0f1bdcbbbd858f191db63331fca16b757679d2aeae60b55a78ecc90e"
+    },
+    {
+      "method": "verify_requirement",
+      "tx": "0xd01f22e2f4af0bd7b141fe574c7fd163df1f1081bced962effb8bc4cd27549e6",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "consensus": "MAJORITY_AGREE",
+      "expected_error": true,
+      "explorer": "https://explorer-studio.genlayer.com/tx/0xd01f22e2f4af0bd7b141fe574c7fd163df1f1081bced962effb8bc4cd27549e6"
+    },
+    {
+      "method": "verify_requirement",
+      "tx": "0x7895c127ed9c972c9adef8e7d63d868b9b6fd43b6634cee18293d2d981e72d0d",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "consensus": "MAJORITY_AGREE",
+      "expected_error": false,
+      "explorer": "https://explorer-studio.genlayer.com/tx/0x7895c127ed9c972c9adef8e7d63d868b9b6fd43b6634cee18293d2d981e72d0d"
+    },
+    {
+      "method": "verify_requirement",
+      "tx": "0x96b2a3755fe1ca6c49065be5bc1db82cbab33563baef3b600fa8f2820ac103bc",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "consensus": "MAJORITY_AGREE",
+      "expected_error": false,
+      "explorer": "https://explorer-studio.genlayer.com/tx/0x96b2a3755fe1ca6c49065be5bc1db82cbab33563baef3b600fa8f2820ac103bc"
+    },
+    {
+      "method": "verify_requirement",
+      "tx": "0xd27643c322693c0610c666574c607a01156434a3f2a9f56069a75c2c04b53816",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "consensus": "MAJORITY_AGREE",
+      "expected_error": false,
+      "explorer": "https://explorer-studio.genlayer.com/tx/0xd27643c322693c0610c666574c607a01156434a3f2a9f56069a75c2c04b53816"
+    },
+    {
+      "method": "verify_requirement",
+      "tx": "0xffd1301b211884db9889ed17088622d36a98502617f55c359ff65da13a4d51bc",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "consensus": "MAJORITY_AGREE",
+      "expected_error": false,
+      "explorer": "https://explorer-studio.genlayer.com/tx/0xffd1301b211884db9889ed17088622d36a98502617f55c359ff65da13a4d51bc"
+    },
+    {
+      "method": "finalize_bundle",
+      "tx": "0xcfc3ea2b5cf5dc5d2734b1533b7f8a6d864cc147068ca3e02b0376afcaa4ece3",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "consensus": "MAJORITY_AGREE",
+      "expected_error": false,
+      "explorer": "https://explorer-studio.genlayer.com/tx/0xcfc3ea2b5cf5dc5d2734b1533b7f8a6d864cc147068ca3e02b0376afcaa4ece3"
+    },
+    {
+      "method": "finalize_bundle",
+      "tx": "0xcc45df8cbbfd2599c7f0e99d7956b9a66e8bf99e1601228759f9d894fb4789b1",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "consensus": "MAJORITY_AGREE",
+      "expected_error": true,
+      "explorer": "https://explorer-studio.genlayer.com/tx/0xcc45df8cbbfd2599c7f0e99d7956b9a66e8bf99e1601228759f9d894fb4789b1"
+    },
+    {
+      "method": "create_bundle",
+      "tx": "0x509c3793338f279285163ee066f08c46771b52d5fa586d0821b8c003dae7420f",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "consensus": "MAJORITY_AGREE",
+      "expected_error": false,
+      "explorer": "https://explorer-studio.genlayer.com/tx/0x509c3793338f279285163ee066f08c46771b52d5fa586d0821b8c003dae7420f"
+    },
+    {
+      "method": "add_requirement",
+      "tx": "0x7089b5dfde7b53256262ba76bf294879c26c1c4d789f23872aba63f3090bcb5d",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "consensus": "MAJORITY_AGREE",
+      "expected_error": false,
+      "explorer": "https://explorer-studio.genlayer.com/tx/0x7089b5dfde7b53256262ba76bf294879c26c1c4d789f23872aba63f3090bcb5d"
+    },
+    {
+      "method": "seal_bundle",
+      "tx": "0x99ddf9d6d1e8945a1bf75774171f05c6737ef9da6c6ddf72bc610ef07d294bbc",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "consensus": "MAJORITY_AGREE",
+      "expected_error": false,
+      "explorer": "https://explorer-studio.genlayer.com/tx/0x99ddf9d6d1e8945a1bf75774171f05c6737ef9da6c6ddf72bc610ef07d294bbc"
+    },
+    {
+      "method": "verify_requirement",
+      "tx": "0xe50972dafdd16e93bea627d13b028db83d2d39897a65849842736bc778bc8b07",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "consensus": "MAJORITY_AGREE",
+      "expected_error": false,
+      "explorer": "https://explorer-studio.genlayer.com/tx/0xe50972dafdd16e93bea627d13b028db83d2d39897a65849842736bc778bc8b07"
+    },
+    {
+      "method": "finalize_bundle",
+      "tx": "0xc8e23d1919831465b03dccca39f4cc4a681d8617b0422da98e2f32f76660056d",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "consensus": "MAJORITY_AGREE",
+      "expected_error": false,
+      "explorer": "https://explorer-studio.genlayer.com/tx/0xc8e23d1919831465b03dccca39f4cc4a681d8617b0422da98e2f32f76660056d"
+    }
+  ],
+  "readbacks": {
+    "happy_sealed": {
+      "blocker_code": "",
+      "bundle_id": 3,
+      "checked_count": 0,
+      "creator": "0xfed97e2ae1a8c1983b7ca206b3545e6a2c685e43",
+      "expected_category": "Core",
+      "finalizer": "",
+      "manifest_digest": "ecd16dbaa734127accd2d8ca5d37990ecd0af88f798d840a3476d89c9d69f504",
+      "name": "London Core specification gate",
+      "requirement_count": 4,
+      "state": "SEALED",
+      "supersedes": 0
+    },
+    "happy_requirements": [
+      {
+        "bundle_id": 3,
+        "category": "Core",
+        "checker": "0xc67532aef9d2879cba9375a02e6217a3524657b8",
+        "eip_id": 1559,
+        "eip_type": "Standards Track",
+        "fact_digest": "3450f60a1f4cbc24571224ca2fab2bd5c3869adc153b10f2edf7bf1cb7305d48",
+        "fallback_digest": "f7889635de5038024b31dba0e03dc1764873c8a3c0069d4051b169eccebaa2d7",
+        "pinned_commit": "0b8184b1d6ed9fba836222684fd082b32782d4ef",
+        "primary_digest": "81b319a1bce2698db9912db35d12ba54433f03b167c680ef1b73185bd739e59f",
+        "reason_code": "CANONICAL_FACTS_MATCH",
+        "requires_csv": "2718,2930",
+        "revision": 1,
+        "slot": 0,
+        "state": "VERIFIED",
+        "status": "Final",
+        "title": "Fee market change for ETH 1.0 chain"
+      },
+      {
+        "bundle_id": 3,
+        "category": "Core",
+        "checker": "0xc67532aef9d2879cba9375a02e6217a3524657b8",
+        "eip_id": 2718,
+        "eip_type": "Standards Track",
+        "fact_digest": "1f24e20379ee00fcc8a3f4d493caf9298cbdaa9f453553b2b12ca816f32ac5e2",
+        "fallback_digest": "ac97abb06ddc7d79d470d115ae3b771f650ec9494415685f912d0307ab024a74",
+        "pinned_commit": "0b8184b1d6ed9fba836222684fd082b32782d4ef",
+        "primary_digest": "a69a539d6e98904d4d569b814f61c5813e12f00e026e6b49255d849ecb61c45a",
+        "reason_code": "CANONICAL_FACTS_MATCH",
+        "requires_csv": "",
+        "revision": 1,
+        "slot": 1,
+        "state": "VERIFIED",
+        "status": "Final",
+        "title": "Typed Transaction Envelope"
+      },
+      {
+        "bundle_id": 3,
+        "category": "Core",
+        "checker": "0xc67532aef9d2879cba9375a02e6217a3524657b8",
+        "eip_id": 2930,
+        "eip_type": "Standards Track",
+        "fact_digest": "4ac64f05e07de2083f837b683c58190a9300dc5bc7b60fd184b1a2f109417f47",
+        "fallback_digest": "6e4fdbd458a7e85ef99aa6b92ab7558be42e8a1369cc9f4d71e5946005ccabf4",
+        "pinned_commit": "0b8184b1d6ed9fba836222684fd082b32782d4ef",
+        "primary_digest": "e4056113d6a977ea556dbfad3311632379eab313cec1773189e72438eac04225",
+        "reason_code": "CANONICAL_FACTS_MATCH",
+        "requires_csv": "2718,2929",
+        "revision": 1,
+        "slot": 2,
+        "state": "VERIFIED",
+        "status": "Final",
+        "title": "Optional access lists"
+      },
+      {
+        "bundle_id": 3,
+        "category": "Core",
+        "checker": "0xc67532aef9d2879cba9375a02e6217a3524657b8",
+        "eip_id": 2929,
+        "eip_type": "Standards Track",
+        "fact_digest": "6d69a2b11eadb01fb8d06242f6dbf172592c5fc436fa3ac202a767b0fbcfc0ed",
+        "fallback_digest": "d3d30ec4cd827adce6718b9336b75cc6db222fe67c7f8b14ef585dec10c47e62",
+        "pinned_commit": "0b8184b1d6ed9fba836222684fd082b32782d4ef",
+        "primary_digest": "c7a24fdf18d20e662eb444d78c5223a061708c9ab195ea92bc3ed19e2ada3d72",
+        "reason_code": "CANONICAL_FACTS_MATCH",
+        "requires_csv": "",
+        "revision": 1,
+        "slot": 3,
+        "state": "VERIFIED",
+        "status": "Final",
+        "title": "Gas cost increases for state access opcodes"
+      }
+    ],
+    "happy_final": {
+      "blocker_code": "ALL_SPEC_REQUIREMENTS_SATISFIED",
+      "bundle_id": 3,
+      "checked_count": 4,
+      "creator": "0xfed97e2ae1a8c1983b7ca206b3545e6a2c685e43",
+      "expected_category": "Core",
+      "finalizer": "0xc67532aef9d2879cba9375a02e6217a3524657b8",
+      "manifest_digest": "ecd16dbaa734127accd2d8ca5d37990ecd0af88f798d840a3476d89c9d69f504",
+      "name": "London Core specification gate",
+      "requirement_count": 4,
+      "state": "SPEC_READY",
+      "supersedes": 0
+    },
+    "missing_dependency_final": {
+      "blocker_code": "MISSING_DEPENDENCY",
+      "bundle_id": 4,
+      "checked_count": 1,
+      "creator": "0xfed97e2ae1a8c1983b7ca206b3545e6a2c685e43",
+      "expected_category": "Core",
+      "finalizer": "0xc67532aef9d2879cba9375a02e6217a3524657b8",
+      "manifest_digest": "d0815eff0e87150e04bc6c32cf94634a88b3e96e027f347ca01418206d17c515",
+      "name": "Missing dependency adversarial gate",
+      "requirement_count": 1,
+      "state": "BLOCKED",
+      "supersedes": 0
+    }
+  },
+  "final_config": {
+    "access": "PERMISSIONLESS_TWO_WALLET_PER_BUNDLE",
+    "architecture": "SEALED_MANIFEST_ITEM_RECEIPTS_DEPENDENCY_GATE",
+    "bundle_count": 4,
+    "decision_scope": "EIP_METADATA_ONLY_NOT_CONSUMER_MIGRATION",
+    "fallback_origin": "https://raw.githubusercontent.com/ethereum/EIPs",
+    "primary_origin": "https://eips.ethereum.org",
+    "version": "SPEC_LATCH_V1"
+  },
+  "result": "PASS"
+}
